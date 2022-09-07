@@ -12,8 +12,14 @@
 }
 
 body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
     margin: 0;
-    padding: 0 15px;
+    padding: 30px 15px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     background-color: var(--light-gray);
@@ -32,7 +38,6 @@ button{
 }
 
 .wrapper{
-    margin: 5% auto;
     max-width: 920px;
     display: flex;
     flex-wrap: nowrap;
